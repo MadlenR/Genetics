@@ -1,8 +1,10 @@
-//////FEMALE
 .parents {
     display: flex;
     
 }
+
+//////FEMALE
+
 
 .female {
     @include parent(15%);
