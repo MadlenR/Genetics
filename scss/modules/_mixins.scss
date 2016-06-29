@@ -3,3 +3,25 @@
     display: inline-block;
     left: $parent_position;
 }
+
+@mixin formLabel () {
+    display: inline-block;
+    margin-top: 8%;
+    width: 88%;
+    margin-left: 5%;
+    
+}
+
+@mixin formField ($widthForm) {
+    margin-top: 5%;
+    width: $widthForm;
+    float: right;
+    padding: 2%;
+}  
+@mixin button ($button_height) {
+    width: 30%;
+    height: ($button_height);
+    display: inline-block;
+    
+    
+}

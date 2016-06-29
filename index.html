@@ -89,26 +89,27 @@
     
 <!--     Section 5 CONTACT-->
     <section class="form">
-        <h1>Want to know mor about genetics? Ask a question!</h1>
-        <form id="contactForm">   
-            <label>
+            
+        <form id="contactForm" style="border: 2px solid red">
+            <h1 style="border: 1px solid red">Want to know more about genetics?<wbr> Ask a question!</h1>
+            <label style="border: 1px solid green">
                 Name:
-                <input id="nameInput" type="text" name="name">
+                <input id="nameInput" type="text" name="name" placeholder="What's your name?">
             </label>
             <br>
-            <label>
+            <label style="border: 1px solid blue">
                 Email:
-                <input id="emailInput" type="text" name="email">
+                <input id="emailInput" type="text" name="email" placeholder="Where to send the answer?">
             </label>
             <br>
-            <label>
+            <label style="border: 1px solid pink">
                 Message:
-                <input id="messageInput" type="text" name="message">
+                <textarea id="messageInput"  name="message" placeholder="Ask your question." ></textarea>
             </label>
             <br>
-            <div id="error"></div>
+            <div id="error" style="border: 1px solid yellow"></div>
             <br>
-            <input type="submit">
+            <button type="submit"> ASK </button>
         </form>        
     </section>
     

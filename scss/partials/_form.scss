@@ -1,0 +1,40 @@
+#questionmark {
+    height: 14em;
+    width: 14em;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+form {
+    width: 55%;
+    > label {
+        @include formLabel;
+        >input {
+            @include formField (100%);
+        }
+    }
+    >h1 {
+        display: inline-block;
+        float: right;
+        margin-right: 15%;
+        margin-top: 8%;
+        margin-left: 5%;
+        font-size: 1.5em;
+    }
+    button {
+        @include button (5%);
+        
+        
+    }
+}   
+
+textarea {
+    @include formField (100%);
+    min-height: 7em;
+    box-sizing: border-box;
+    resize: none;
+}
