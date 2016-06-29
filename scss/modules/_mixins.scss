@@ -19,9 +19,10 @@
     padding: 2%;
 }  
 @mixin button ($button_height) {
-    width: 30%;
+    width: 53%;
     height: ($button_height);
     display: inline-block;
+    background-color: transparent;
     
     
 }

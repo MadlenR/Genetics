@@ -180,9 +180,16 @@ form {
     margin-left: 5%;
     font-size: 1.5em; }
   form button {
-    width: 30%;
-    height: 5%;
-    display: inline-block; }
+    width: 53%;
+    height: 48%;
+    display: inline-block;
+    background-color: transparent;
+    background-image: url("/images/ask_sign.png");
+    background-repeat: no-repeat;
+    border: none;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 20%; }
 
 textarea {
   margin-top: 5%;
