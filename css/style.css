@@ -94,7 +94,8 @@ header {
 .female {
   position: relative;
   display: inline-block;
-  left: 15%; }
+  left: 15%;
+  cursor: pointer; }
 
 #f_hair {
   position: absolute;
@@ -109,29 +110,33 @@ header {
   position: relative;
   display: inline-block;
   left: 30%;
-  width: 27%; }
+  cursor: pointer;
+  width: 22.5%; }
 
 #m_hair {
   position: absolute;
   z-index: 3;
   left: 8%;
-  top: -2%; }
+  top: -2%;
+  cursor: pointer; }
 
 #m_eyes {
   position: absolute;
   top: 35%;
   left: 25%;
-  z-index: 3; }
+  z-index: 3;
+  cursor: pointer; }
 
 #m_body {
   position: absolute;
   top: 72%;
-  left: 15%;
+  left: 13%;
   z-index: 1; }
 
 #m_skin {
   position: absolute;
-  z-index: 2; }
+  z-index: 2;
+  cursor: pointer; }
 
 .child {
   position: relative;
@@ -156,39 +161,43 @@ header {
   height: 14em;
   width: 14em; }
 
-.form {
+.form_section {
   display: flex;
   justify-content: center; }
 
-form {
-  width: 55%; }
-  form > label {
+#contactForm {
+  width: 55%;
+  margin-bottom: 5%; }
+  #contactForm > label {
     display: inline-block;
     margin-top: 8%;
     width: 88%;
     margin-left: 5%; }
-    form > label > input {
+    #contactForm > label > input {
       margin-top: 5%;
       width: 100%;
       float: right;
       padding: 2%; }
-  form > h1 {
+  #contactForm > h1 {
     display: inline-block;
     float: right;
     margin-right: 15%;
     margin-top: 8%;
     margin-left: 5%;
     font-size: 1.5em; }
-  form button {
-    width: 53%;
-    height: 48%;
-    display: inline-block;
+  #contactForm button {
+    width: 22%;
+    height: 100%;
+    display: block;
+    float: none;
     background-color: transparent;
+    min-width: 50px;
+    max-width: 300px;
     background-image: url("/images/ask_sign.png");
     background-repeat: no-repeat;
     border: none;
     float: right;
-    margin-right: 10%;
+    margin-right: 38%;
     margin-bottom: 20%; }
 
 textarea {
@@ -202,5 +211,8 @@ textarea {
 
 * {
   box-sizing: border-box; }
+
+.QA h2 {
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
