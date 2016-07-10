@@ -2,6 +2,7 @@
     position: relative;
     display: inline-block;
     left: $parent_position;
+    cursor: pointer;
 }
 
 @mixin formLabel () {
@@ -18,11 +19,12 @@
     float: right;
     padding: 2%;
 }  
-@mixin button ($button_height) {
-    width: 53%;
-    height: ($button_height);
-    display: inline-block;
+@mixin button ($button_height, $button_width) {
+    width: $button_width;
+    height: $button_height;
+    display: block;
+    float: none;
     background-color: transparent;
-    
-    
+    min-width: 50px;  
+    max-width: 300px; 
 }
