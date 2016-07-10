@@ -1,6 +1,5 @@
 .parents {
     display: flex;
-    
 }
 
 //////FEMALE
@@ -16,20 +15,21 @@
 }
 
 #f_body {
-  
+   
+}   
 
-}
 #f_eyes {
     top: 36%;
     left: 18%;
     position: absolute;
- 
+    
 }
 
 //////// MALE
 .male {
     @include parent(30%);
-    width: 27%;
+    width: 22.5%;
+    
 }
 
 #m_hair {
@@ -37,22 +37,24 @@
     z-index: 3;
     left: 8%;
     top: -2%;
+    cursor: pointer;
 }
 #m_eyes {
     position: absolute;
     top: 35%;
     left: 25%;
     z-index: 3;
+    cursor: pointer;
 }
 #m_body {
     position: absolute;
     top:72%;
-    left: 15%;
+    left: 13%;
     z-index: 1;
-    
 }
 #m_skin {
    position: absolute;
     z-index: 2;
+    cursor: pointer;
 }
 
