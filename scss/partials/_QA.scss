@@ -1,6 +1,25 @@
-.QA {
-    h2 {
+.qa_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    h1 {
+        font-size: 2em;
+        padding: 1em; 
+        width: 55%;
+    
+    }
+    p {
+        width: 100%;
+    }
+    .QA {
+        width: 55%;
+         h2 {
         cursor: pointer;
-        
+        padding: 1em;
+        width: 100%;
+        }
     }
 }
+

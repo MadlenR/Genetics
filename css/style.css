@@ -58,6 +58,9 @@ section {
 form {
   background-color: white; }
 
+footer {
+  background-color: #f39233; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -157,62 +160,30 @@ header {
 #b_skin {
   position: absolute; }
 
-#questionmark {
-  height: 14em;
-  width: 14em; }
-
-.form_section {
-  display: flex;
-  justify-content: center; }
-
-#contactForm {
-  width: 55%;
-  margin-bottom: 5%; }
-  #contactForm > label {
-    display: inline-block;
-    margin-top: 8%;
-    width: 88%;
-    margin-left: 5%; }
-    #contactForm > label > input {
-      margin-top: 5%;
-      width: 100%;
-      float: right;
-      padding: 2%; }
-  #contactForm > h1 {
-    display: inline-block;
-    float: right;
-    margin-right: 15%;
-    margin-top: 8%;
-    margin-left: 5%;
-    font-size: 1.5em; }
-  #contactForm button {
-    width: 22%;
-    height: 100%;
-    display: block;
-    float: none;
-    background-color: transparent;
-    min-width: 50px;
-    max-width: 300px;
-    background-image: url("/images/ask_sign.png");
-    background-repeat: no-repeat;
-    border: none;
-    float: right;
-    margin-right: 38%;
-    margin-bottom: 20%; }
-
-textarea {
-  margin-top: 5%;
-  width: 100%;
-  float: right;
-  padding: 2%;
-  min-height: 7em;
-  box-sizing: border-box;
-  resize: none; }
-
 * {
   box-sizing: border-box; }
 
-.QA h2 {
-  cursor: pointer; }
+body {
+  max-height: 100%; }
+
+.qa_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .qa_section h1 {
+    font-size: 2em;
+    padding: 1em;
+    width: 55%; }
+  .qa_section p {
+    width: 100%; }
+  .qa_section .QA {
+    width: 55%; }
+    .qa_section .QA h2 {
+      cursor: pointer;
+      padding: 1em;
+      width: 100%; }
+
+footer {
+  height: 2em; }
 
 /*# sourceMappingURL=style.css.map */
