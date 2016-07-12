@@ -1,24 +1,26 @@
 #questionmark {
-    height: 14em;
-    width: 14em;
+    height: 8em;
+    width: 8em;
 }
 .form_section {
     display: flex;
     justify-content: center;
+    
 }
 
 
 
 #contactForm {
+    height: 120%;
     width: 55%;
     margin-bottom: 5%;
-    > label {
+    label {
         @include formLabel;
-        >input {
+        input {
             @include formField (100%);
         }
     }
-    >h1 {
+    h1 {
         display: inline-block;
         float: right;
         margin-right: 15%;
@@ -27,13 +29,21 @@
         font-size: 1.5em;
     }
     button {
-        @include button (100%, 22%);
+////        @include button (19%, 22%);
+//       
+        width: 20%;
+        height: 120%;
+        padding: 11%;
+        display: inline-block;
+//    
+        background-color: transparent;
         background-image: url('/images/ask_sign.png');
         background-repeat: no-repeat;
         border: none;
         float: right;
         margin-right: 38%;
-        margin-bottom: 20%;
+//        margin-bottom: 20%;
+        border: 1px solid green;
         
     }
 }   

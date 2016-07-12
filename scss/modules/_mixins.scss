@@ -19,11 +19,10 @@
     float: right;
     padding: 2%;
 }  
-@mixin button ($button_height, $button_width) {
-    width: $button_width;
-    height: $button_height;
-    display: block;
-    float: none;
-    background-color: transparent;
-      
-}
+//@mixin button ($button_height, $button_width) {
+//    width: $button_width;
+//    height: $button_height;
+////    display: block;
+//    background-color: transparent;
+//    
+//}
