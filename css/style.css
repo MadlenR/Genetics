@@ -61,6 +61,9 @@ form {
 footer {
   background-color: #f39233; }
 
+.comparison_checked {
+  background-color: #68a180; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -225,14 +228,43 @@ body {
     font-size: 2em;
     padding: 1em;
     width: 55%; }
-  .qa_section p {
-    width: 100%; }
   .qa_section .QA {
     width: 55%; }
     .qa_section .QA h2 {
       cursor: pointer;
       padding: 1em;
-      width: 100%; }
+      width: 100%;
+      font-size: 1.2em; }
+    .qa_section .QA p {
+      width: 90%;
+      margin: 0 auto; }
+      .qa_section .QA p #QA_height_counter span {
+        margin-left: 5%; }
+      .qa_section .QA p #QA_height_counter input {
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 5%; }
+      .qa_section .QA p #QA_height_counter button {
+        margin-left: 5%;
+        margin-top: 2%; }
+      .qa_section .QA p #img_helix {
+        cursor: pointer;
+        margin-left: 43%;
+        margin-top: 4%; }
+      .qa_section .QA p .comparison {
+        float: left;
+        margin-right: 6.5%;
+        margin-top: 2%;
+        margin-bottom: 2%; }
+      .qa_section .QA p .comparison_checked {
+        cursor: pointer; }
+      .qa_section .QA p .percent {
+        width: 4.125em;
+        padding-left: 3%;
+        float: left;
+        margin-right: 6.5%;
+        margin-top: 2%;
+        margin-bottom: 2%; }
 
 footer {
   height: 2em; }

@@ -3,23 +3,62 @@
     flex-direction: column;
     align-items: center;
     
-    
     h1 {
         font-size: 2em;
         padding: 1em; 
         width: 55%;
-    
-    }
-    p {
-        width: 100%;
-    }
+        }
     .QA {
         width: 55%;
-         h2 {
+        
+        h2 {
         cursor: pointer;
         padding: 1em;
         width: 100%;
+        font-size: 1.2em;
         }
+        p {
+            width: 90%;
+            margin: 0 auto;
+            #QA_height_counter {
+                span {
+                    margin-left: 5%;
+                }
+                input {
+                    margin-bottom: 2%;
+                    margin-top: 2%;
+                    margin-left: 5%;
+                    }
+                button {
+                    margin-left: 5%;
+                    margin-top: 2%;
+                    }
+            }
+            #img_helix {
+                cursor: pointer;
+                margin-left: 43%;
+                margin-top: 4%;
+                
+            }
+            .comparison {
+                float: left;
+                margin-right: 6.5%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            .comparison_checked {
+               cursor: pointer;
+            }
+            .percent {
+                width: 4.125em;
+                padding-left: 3%;
+                float: left;
+                margin-right: 6.5%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+        }
+   
     }
 }
 

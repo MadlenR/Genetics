@@ -52,9 +52,6 @@ function test_match_media_with_listener() {
     }
 }
 
-$(document).ready(function() {
-  
-});
 
 
 ////////// SECTION Q&A
@@ -72,7 +69,9 @@ function clickQA (element) {
     });
 }
 
-
+//function countHeight (element) {
+//    var input_val= element.find
+//}
 
 //////////// SECTION FORM
 
@@ -127,6 +126,7 @@ $(document).ready(function(){
 //        console.log("działa");
     
     clickQA($(".QA"));
+//    countHeight($(".QA"));
     test_match_media_with_listener();
     btnMenuInit();
     handleForm();
